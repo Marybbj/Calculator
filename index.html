@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Calculator</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="col-md-5 calc">
+			<div class="form-group group">                                                                                                   
+				<input type="text" id="result" class="form-control" disabled>
+
+				<div class="row line">
+					<button class="btn btn-info knob" onclick="acos()">acos</button>
+					<button class="btn btn-info knob" onclick="asin()">asin</button>
+					<button class="btn btn-info knob" onclick="atan()">atan</button>
+					<button class="btn btn-info knob" onclick="cos()">cos</button>
+					<button class="btn btn-info knob" onclick="sin()">sin</button>
+					<button class="btn btn-info knob" onclick="tan()">tan</button>
+					<button class="btn btn-info knob" onclick="C()">C</button>
+				</div>
+
+				<div class="row line">
+					<button class="btn btn-info knob" onclick="Log()">log</button>
+					<button class="btn btn-info knob" onclick="Bin()">bin</button>
+					<button class="btn btn-info knob" onclick="Sqrt()">sqrt</button>
+					<button class="btn btn-info knob number">7</button>
+					<button class="btn btn-info knob number">8</button>
+					<button class="btn btn-info knob number">9</button>
+					<button class="btn btn-info knob action">/</button>
+
+				</div>
+
+				<div class="row line">
+					<button class="btn btn-info knob" onclick="Pow2()">x2</button>
+					<button class="btn btn-info knob" onclick="Pow3()">x3</button>
+					<button class="btn btn-info knob " onclick="abs()">|x|</button>
+					<button class="btn btn-info knob number">6</button>
+					<button class="btn btn-info knob number">4</button>
+					<button class="btn btn-info knob number">5</button>
+					<button class="btn btn-info knob action">*</button>
+
+				</div>
+
+				<div class="row line">
+					<button class="btn btn-info knob " onclick="exp()">exp</button>
+					<button class="btn btn-info knob" onclick="LN10()">ln</button>
+					<button class="btn btn-info knob " onclick="PI()">PI</button>
+					<button class="btn btn-info knob number">1</button>
+					<button class="btn btn-info knob number">2</button>
+					<button class="btn btn-info knob number">3</button>
+					<button class="btn btn-info knob action">-</button>
+				</div>
+
+				<div class="row line">
+					<button class="btn btn-info knob" onclick="round()">round</button>
+					<button class="btn btn-info knob" onclick="E()">E</button>
+					<button class="btn btn-info knob " onclick="undo()"><</button>
+					<button class="btn btn-info knob number">0</button>
+					<button class="btn btn-info knob number">.</button>
+					<button class="btn btn-info knob equal" onclick="equal()">=</button>
+					<button class="btn btn-info knob action">+</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+</html>
